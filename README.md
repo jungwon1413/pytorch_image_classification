@@ -37,3 +37,13 @@ Here are some benchmarks of the models I trained.
 | Weight Decay Rate | # of Layers | Widen factor | Drop rate | Augment Method |
 | ---- | ---- | ---- | ---- | ---- |
 | 5e-4 | 28 | 10 | 0 | Random Crop & Flip
+
+- DenseNet
+
+| Seed # | Epochs | Mini-Batch Size | Initial lr | Momentum | Nesterov | 
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 40000 | 300 | 128 | 0.1 | 0.9 | True
+
+| Weight Decay Rate | # of Layers | Growth Rate | Reduction | Bottleneck | Drop rate | Augment Method |
+| ---- | ---- | ---- | ---- | ---- |
+| 1e-4 | 100 | 12 | 0.5 | True | 0 | Random Crop & Flip
