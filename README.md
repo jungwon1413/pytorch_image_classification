@@ -1,3 +1,4 @@
+
 # PyTorch Image Classification on __CUSTOM__ Fashion MNIST
 
 ## Models
@@ -28,7 +29,7 @@ Here are some benchmarks of the models I trained.
 ## Hyperparameters
 ! Notice: Fashion-MNIST dataset has new ratio (Train 30000, Test 40000) !
 
-- WideResNet
+### WideResNet
 
 | Seed # | Epochs | Mini-Batch Size | Initial lr | Momentum | Nesterov | 
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -38,7 +39,7 @@ Here are some benchmarks of the models I trained.
 | ---- | ---- | ---- | ---- | ---- |
 | 5e-4 | 28 | 10 | 0 | Random Crop & Flip
 
-- DenseNet
+### DenseNet
 
 | Seed # | Epochs | Mini-Batch Size | Initial lr | Momentum | Nesterov | 
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -47,3 +48,13 @@ Here are some benchmarks of the models I trained.
 | Weight Decay Rate | # of Layers | Growth Rate | Reduction | Bottleneck | Drop rate | Augment Method |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | 1e-4 | 100 | 12 | 0.5 | True | 0 | Random Crop & Flip
+
+### DualPathNet
+
+| Seed # | Epochs | Mini-Batch Size | Initial lr | Momentum | Nesterov | 
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 30000 | 200 | 256 | 0.1 | 0.9 | False
+
+| Weight Decay Rate | # of Layers | # of Blocks | Filters  | Growth rate | Augment Method |
+| ---- | ---- | ---- | ---- | ---- | ---- | 
+| 5e-4 | 100 | 4, 4, 4 | 160, 320, 640 | 16, 32, 64 | Random Crop & Flip
