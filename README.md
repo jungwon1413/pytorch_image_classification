@@ -73,3 +73,17 @@ Here are some benchmarks of the models I trained.
 | :----: | :----: | :----: | :----: | :----: | :----: |
 | 26 | 0 | 96 | Shake | Shake | Image |
 
+
+### ResNet w/ Shake-Shake regularization (96 Dims)
+
+| Seed # | Cutout Size | Cutout Probability | Cutout Inside |
+| :----: | :----: | :----: | :----: |
+| 30000 | 16 | 1.0 | False |
+
+| Epochs | Mini-Batch Size | Initial lr | Momentum | Nesterov | Weight Decay Rate | 
+| :----: | :----: | :----: | :----: | :----: | :----: |
+| 1800 | 256 | 0.1 | 0.9 | False | 1e-4 |
+
+ | # of Layers | Minimum lr | # of Base Channels | Feed-forward regularization  | Back-prop regularization | Test regularization |
+| :----: | :----: | :----: | :----: | :----: | :----: |
+| 26 | 0 | 64 | Shake | Shake | Image |
