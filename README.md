@@ -15,7 +15,8 @@ The models are trained using following hardware:
 - 64GB RAM
 
 ## Benchmarks
-Here are some benchmarks of the models I trained.
+Here are some benchmarks of the models I trained:
+
 | Model Name | # of Parameters | Accuracy (Prec@1) | Time Estimated (Not Measured) | # of Epochs |
 | ------------- | --------------- | :---------------: | ----------------------: | -------------- |
 | WideResNet | 36478906 | 93.2775 | Around 7 Hrs | 200
