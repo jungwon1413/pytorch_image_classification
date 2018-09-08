@@ -29,6 +29,7 @@ Here are some benchmarks of the models I trained.
 ## Hyperparameters
 ! Notice: Fashion-MNIST dataset has new ratio (Train 30000, Test 40000) !
 
+
 ### WideResNet
 
 | Seed # | Epochs | Mini-Batch Size | Initial lr | Momentum | Nesterov | 
@@ -38,6 +39,7 @@ Here are some benchmarks of the models I trained.
 | Weight Decay Rate | # of Layers | Widen factor | Drop rate | Augment Method |
 | :----: | :----: | :----: | :----: | :----: |
 | 5e-4 | 28 | 10 | 0 | Random Crop & Flip
+
 
 ### DenseNet
 
@@ -49,6 +51,7 @@ Here are some benchmarks of the models I trained.
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | 1e-4 | 100 | 12 | 0.5 | True | 0 | Random Crop & Flip
 
+
 ### DualPathNet
 
 | Seed # | Epochs | Mini-Batch Size | Initial lr | Momentum | Nesterov | 
@@ -58,6 +61,7 @@ Here are some benchmarks of the models I trained.
 | Weight Decay Rate | # of Layers | # of Blocks | Filters  | Growth rate | Augment Method |
 | :----: | :----: | :----: | :----: | :----: | :----: | 
 | 5e-4 | 100 | 4, 4, 4 | 160, 320, 640 | 16, 32, 64 | Random Crop & Flip
+
 
 ### ResNet w/ Shake-Shake regularization (96 Dims)
 
@@ -74,7 +78,7 @@ Here are some benchmarks of the models I trained.
 | 26 | 0 | 96 | Shake | Shake | Image |
 
 
-### ResNet w/ Shake-Shake regularization (96 Dims)
+### ResNet w/ Shake-Shake regularization (64 Dims)
 
 | Seed # | Cutout Size | Cutout Probability | Cutout Inside |
 | :----: | :----: | :----: | :----: |
