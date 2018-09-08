@@ -45,5 +45,5 @@ Here are some benchmarks of the models I trained.
 | 40000 | 300 | 128 | 0.1 | 0.9 | True
 
 | Weight Decay Rate | # of Layers | Growth Rate | Reduction | Bottleneck | Drop rate | Augment Method |
-| ---- | ---- | ---- | ---- | ---- |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | 1e-4 | 100 | 12 | 0.5 | True | 0 | Random Crop & Flip
