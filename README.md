@@ -1,4 +1,4 @@
-# PyTorch Image Classification on Fashion MNIST
+# PyTorch Image Classification on __CUSTOM__ Fashion MNIST
 
 ## Models
 This repo is for self-learning on 'image classification' methods, using deep learning. I consists for 5 different models:
