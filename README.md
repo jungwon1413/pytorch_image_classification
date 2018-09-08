@@ -19,7 +19,7 @@ The models are trained using following hardware:
 Here are some benchmarks of the models I trained.
 
 | Model Name | # of Parameters | Accuracy (Prec@1) | Time Estimated (Not Measured) | # of Epochs |
-| ------------- | --------------- | :---------------: | ----------------------: | -------------- |
+| ------------- | :----: | :---------------: | ----------------------: | :----: |
 | WideResNet | 36478906 | 93.2775 | Around 7 Hrs | 200
 | DenseNet   | 768730 | 93.77 | Around 3~4 Hrs | 300
 | DualPathNet | 47751450 | 93.21 | Around 6 Hrs (Not sure) | 200
